@@ -2,6 +2,7 @@
 
 
 ## Tech Stack
+All code is commented 🚀
 
 ## Worflow
 #### Sign-Up & Login:
