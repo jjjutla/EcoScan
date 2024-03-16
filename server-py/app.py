@@ -36,23 +36,23 @@ def serve_image():
 def task():
     image_url = request.host_url.rstrip('/') + '/img.png'  
     headers = {
-        "Authorization": "msy_yltchy13o2q2ekfEAJE6nPAVqgtSdCG2CrH7",
+        "Authorization": "///",
         "Content-Type": "application/json"
     }
     data = {
         "image_url": image_url,
         "enable_pbr": True
     }
-    response = requests.post('https://api.meshy.ai/v1/image-to-3d', headers=headers, json=data)
+    response = requests.post('//', headers=headers, json=data)
     taskID = response.json().get('result')
     return jsonify({'taskID': taskID})
 
 @app.route('/status/<taskID>', methods=['GET'])
 def status(taskID):
     headers = {
-        "Authorization": "msy_yltchy13o2q2ekfEAJE6nPAVqgtSdCG2CrH7"  # Replace YOUR_API_KEY with your actual API key
+        "Authorization": "//" 
     }
-    response = requests.get(f'https://api.meshy.ai/v1/image-to-3d/{taskID}', headers=headers)
+    response = requests.get(f'////{taskID}', headers=headers)
     response_data = response.json()
     progress = response_data.get('progress', 'Not available')
     status = response_data.get('status', 'Not available')
