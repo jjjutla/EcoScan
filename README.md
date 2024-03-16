@@ -30,7 +30,7 @@ All code is commented 🚀
 #### Login as a Consumer:
 - The user can view the marketplace of the restaurants and food items with their digital twin NFT's.
 - The user can view the food items in AR on their phone.
-- The user can decide to buy an item and the NFT marketplace contract manages trnasactions of tokens between users.
+- The user can decide to buy an item and the NFT marketplace contract manages tranasactions of tokens between users.
 - To make a seamless experaince for new users fee delegation is used to facilitate the sale using Apple Pay.
 - Once the users make a purchase they are rewarded with a percentage of tokens using a custom ERC-20 token that can be used for discounts on future purchases or events at the restaurant.
 - Users can leave reviews and feedback and are rewarded a small token for community feedback.
