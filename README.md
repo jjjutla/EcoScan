@@ -23,8 +23,8 @@ All code is commented 🚀
 - A photo is sent from the app to our python server (http://176.58.109.155/) and uploads it to an AWS EC2 instance.
 - The AWS EC2 instance is running Nvidia's NeRF Instant NGP that is used to generate a 3D model (usdz) from an image.
 - The 3D model is hashed and stored on IPFS using Web3Storage.
-- THe restaurant inputs details about the item (Name, Price, Use-by-Date).
-- Dace ID is used to generate a signer kye and `@vechain/vechain-sdk-core` is used to sign the transaction and deploy an NFT digital twin contract that contains the hash of the model along with the metadata.
+- The restaurant inputs details about the item (Name, Price, Use-by-Date).
+- Face ID is used to generate a signer kye and `@vechain/vechain-sdk-core` is used to sign the transaction and deploy an NFT digital twin contract that contains the hash of the model along with the metadata.
 - The tokenised food item is then displayed in the marketplace.
 
 #### Login as a Consumer:
