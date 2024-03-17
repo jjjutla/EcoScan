@@ -24,6 +24,7 @@ DishDeal is a reduce-food-waste to earn iOS app that uses augmented reality and 
 <img src=https://github.com/nkoorty/CambridgeHack/assets/80065244/61276444-bc3c-4473-991b-59bee33eca01 width=19%> 
 <img src=https://github.com/nkoorty/CambridgeHack/assets/80065244/d59551a6-399f-490e-9407-e949f7923709 width=19%> 
 <img src=https://github.com/nkoorty/CambridgeHack/assets/80065244/8f657e23-9bb8-45f7-9cb1-048060e12f0d width=19%> 
+<img src=https://github.com/nkoorty/CambridgeHack/assets/80065244/42368563-c48a-41e4-8857-6deab9887daf width=19%> 
 
 
 ## Tech Stack
