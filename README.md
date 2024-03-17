@@ -8,6 +8,11 @@ DishDeal is a reduce-food-waste to earn iOS app that uses augmented reality and 
 - Video: 
 - [Deck](https://www.canva.com/design/DAF_vmwDygs/Rcg9VjB7_lQ0k18DvzawSw/edit?utm_content=DAF_vmwDygs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
+## Team
+
+- Artemiy Malyshau: MSc Applied CS and Engineering, Imperial College London[Connect](https://www.linkedin.com/in/artemiy-malyshau/)
+- Jeevan Jutla: Binance Security Engineer [Connect](https://www.linkedin.com/in/jeevan-jutla/)
+
 ## Tech Stack
 All code is commented 🚀
 
