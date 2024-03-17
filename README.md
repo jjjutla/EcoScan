@@ -31,6 +31,8 @@ All code is commented 🚀
 - **ERC-20**: is used to reward the user upon transaction and feedback.
 
 ## Worflow
+![ArchDiagram](https://github.com/nkoorty/CambridgeHack/assets/22000925/0bf9040b-c054-470a-81ed-63673b8579e7)
+
 #### Sign-Up & Login:
 -  Once the user opens the app they have two options:
     1. Login: Connect VeWorld using WalletConnect
