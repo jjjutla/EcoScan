@@ -26,7 +26,7 @@ struct TabBarView: View {
                 
             AugmentView()
                 .tabItem {
-                    Label("AR View", systemImage: "arkit")
+                    Label("Purchases", systemImage: "arkit")
                 }
             
             ProfileView()

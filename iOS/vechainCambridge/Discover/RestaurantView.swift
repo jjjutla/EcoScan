@@ -128,8 +128,14 @@ struct Restaurant: Identifiable {
 
 var restaurants: [Restaurant] = [
     Restaurant(name: "Golden Hare", imageUrl: "hare", timeRange: "11:00 - 23:00", itemName: "Surprise Box", rating: "4.6", distance: "3.2 mi", price: "£ 15.90", left: "6+ left"),
+    Restaurant(name: "Pret", imageUrl: "pret", timeRange: "20:00 - 00:00", itemName: "Coffee Box", rating: "4.2", distance: "1.2 mi", price: "£ 3.39", left: "4 left"),
+    Restaurant(name: "Flat Iron", imageUrl: "flatiron", timeRange: "12:00 - 22:00", itemName: "Steakhouse Classics", rating: "4.8", distance: "2.5 mi", price: "£ 22.30", left: "5+ left"),
+    Restaurant(name: "Honest Burgers", imageUrl: "honestburgers", timeRange: "23:00 - 00:00", itemName: "Snack Leftovers", rating: "4.5", distance: "0.2 mi", price: "£ 8.90", left: "2 left")
+]
+
+var restaurantsHurry: [Restaurant] = [
+    Restaurant(name: "Flat Iron", imageUrl: "flatiron", timeRange: "18:00 - 22:00", itemName: "Steak Box", rating: "4.3", distance: "2.2 mi", price: "£ 12.90", left: "5+ left"),
     Restaurant(name: "Popeyes", imageUrl: "popeyes", timeRange: "12:00 - 00:00", itemName: "Chicken", rating: "4.4", distance: "1.8 mi", price: "£ 5.39", left: "4+ left"),
-    Restaurant(name: "Azure Bull", imageUrl: "azure_bull", timeRange: "12:00 - 22:00", itemName: "Steakhouse Classics", rating: "4.8", distance: "2.5 mi", price: "£ 22.30", left: "5+ left"),
-    Restaurant(name: "Magenta Magpie", imageUrl: "magenta_magpie", timeRange: "10:00 - 21:00", itemName: "Afternoon Tea Selection", rating: "4.7", distance: "0.5 mi", price: "£ 9.90", left: "3+ left")
+    Restaurant(name: "Costa Coffee", imageUrl: "costa", timeRange: "19:00 - 20:00", itemName: "Pastry Box", rating: "4.9", distance: "2.8 mi", price: "£ 5.39", left: "5+ left")
 ]
 

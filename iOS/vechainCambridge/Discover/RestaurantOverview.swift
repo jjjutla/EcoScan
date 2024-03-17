@@ -15,6 +15,8 @@ struct RestaurantOverview: View {
     let segments = ["Details", "Reviews"]
     
     @State private var showWalletView: Bool = false
+    @State private var takePhotoView: Bool = false
+    @State private var showARView: Bool = false
     
     var body: some View {
         ZStack {
@@ -173,25 +175,29 @@ struct RestaurantOverview: View {
                                     )
                             }
                             
-                            RoundedRectangle(cornerRadius: 10)
-                                .frame(width: .infinity, height: 50)
-                                .foregroundColor(.white.opacity(0.2))
-                                .overlay(
-                                    HStack {
-                                        Image(systemName: "arkit")
-                                            .resizable()
-                                            .scaledToFit()
-                                            .frame(width: 18, height: 18)
-                                        
-                                        Text("View in AR")
-                                            .font(.headline).bold()
-                                    }
-                                )
+                            Button {
+                                showARView.toggle()
+                            } label: {
+                                RoundedRectangle(cornerRadius: 10)
+                                    .frame(width: .infinity, height: 50)
+                                    .foregroundColor(.white.opacity(0.2))
+                                    .overlay(
+                                        HStack {
+                                            Image(systemName: "arkit")
+                                                .resizable()
+                                                .scaledToFit()
+                                                .frame(width: 18, height: 18)
+                                            
+                                            Text("View in AR")
+                                                .font(.headline).bold()
+                                        }
+                                    )
+                            }
                         }
 
                     } else if selectedSegmentIndex == 1 {
                         Button {
-                            
+                            takePhotoView.toggle()
                         } label: {
                             RoundedRectangle(cornerRadius: 16)
                                 .frame(width: .infinity, height: 50)
@@ -265,6 +271,12 @@ struct RestaurantOverview: View {
         .sheet(isPresented: $showWalletView) {
             ReserveView(restaurant: restaurant)
                 .presentationDetents([.fraction(0.64)])
+        }
+        .fullScreenCover(isPresented: $showARView) {
+            RestaurantARView()
+        }
+        .fullScreenCover(isPresented: $takePhotoView) {
+            TakePhotoView()
         }
     }
 }

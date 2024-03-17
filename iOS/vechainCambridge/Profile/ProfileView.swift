@@ -52,7 +52,42 @@ struct ProfileView: View {
                         .hLeading()
 
                     }
-                    
+                }
+                
+                Section(header: Text("Impact")) {
+                    HStack {
+                        VStack(spacing: 12) {
+                            Text("CO2 avoided")
+                                .font(.system(size: 17, weight: .bold, design: .rounded))
+                                .hCenter()
+                            
+                            Image(systemName: "leaf")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 36, height: 36)
+                                .foregroundColor(Color(red: 0, green: 1, blue: 0.5))
+                            
+                            Text("49 kg")
+                                .font(.system(size: 16, weight: .regular, design: .rounded))
+                            
+                        }
+                        
+                        VStack(spacing: 12) {
+                            Text("Energy saved")
+                                .font(.system(size: 18, weight: .bold, design: .rounded))
+                                .hCenter()
+                            
+                            Image(systemName: "bolt")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 36, height: 36)
+                                .foregroundColor(Color(red: 1, green: 1, blue: 0.5))
+                            
+                            Text("385 kWh")
+                                .font(.system(size: 16, weight: .regular, design: .rounded))
+                        }
+                    }
+                    .padding(.vertical, 4)
                 }
                 
                 Section(header: Text("General")) {
@@ -113,7 +148,7 @@ struct ProfileView: View {
                         
                         Spacer()
                         
-                        Text("Connected")
+                        Text("Not Connected")
                             .foregroundStyle(.white.opacity(0.7))
                     }
                     
@@ -127,7 +162,7 @@ struct ProfileView: View {
                         
                         Spacer()
                         
-                        Text("Not Connected")
+                        Text("Connected")
                             .foregroundStyle(.white.opacity(0.7))
                     }
                 }

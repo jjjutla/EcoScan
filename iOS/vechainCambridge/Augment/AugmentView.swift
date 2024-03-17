@@ -34,6 +34,7 @@ struct AugmentView: View {
                             .background(.blue)
                             .cornerRadius(16)
                         }
+                    
                         
                         ForEach(arItems) { item in
                             ARPreviewView(arModel: item)

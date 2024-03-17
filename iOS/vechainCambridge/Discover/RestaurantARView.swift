@@ -1,10 +1,3 @@
-//
-//  ARExperienceView.swift
-//  vechainCambridge
-//
-//  Created by Artemiy Malyshau on 16/03/2024.
-//
-
 import SwiftUI
 import RealityKit
 import ARKit
@@ -12,64 +5,22 @@ import FocusEntity
 import Combine
 import AlertToast
 
-struct ARExperienceView: View {
-
+struct RestaurantARView: View {
     @State private var modelEntities: [ModelEntity] = []
-    @State private var selectedModelName: String? = nil
     @State private var arCoordinator: ARContainerView.Coordinator?
     
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-        
+    
+    // Directly using the single item from arItemsHare
+    @State private var selectedModelName: String? = arItemsHare.first?.model
+    
     var body: some View {
         NavigationView {
             ZStack {
                 ARContainerView(selectedModelName: $selectedModelName, modelEntities: $modelEntities)
-                
-                VStack {
-                    Spacer()
-                        .frame(height: 80)
-                    HStack {
-                        Spacer()
-                        
-                        VStack(spacing: 18) {
-                            Image(systemName: "pencil")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 20, height: 20)
-                                .foregroundColor(.white)
-                            
-                            RoundedRectangle(cornerRadius: 50)
-                                .frame(width: 44, height: 1)
-                                .foregroundColor(.white.opacity(0.5))
-                            
-                            Image(systemName: "square.2.layers.3d")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 20, height: 20)
-                                .foregroundColor(.white)
-                            
-                            RoundedRectangle(cornerRadius: 50)
-                                .frame(width: 44, height: 1)
-                                .foregroundColor(.white.opacity(0.5))
-                            
-                            Image(systemName: "trash")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 20, height: 20)
-                                .foregroundColor(.white)
-                        }
-                        .padding(.horizontal, 6)
-                        .padding(.vertical, 22)
-                        .background(BlurView())
-                        .cornerRadius(16)
-                    }
-                    .padding()
-                    
-                    Spacer()
-                    
-                    BottomSheet(selectedModelName: $selectedModelName)
-                }
             }
+            .navigationTitle("Golden Hare")
+            .navigationBarTitleDisplayMode(.inline)
             .navigationBarItems(leading: Button(action: {
                 self.presentationMode.wrappedValue.dismiss()
             }) {
@@ -83,7 +34,8 @@ struct ARExperienceView: View {
     }
 }
 
-struct ARContainerView: UIViewRepresentable {
+
+struct RestaurantARContainerView: UIViewRepresentable {
     @Binding var selectedModelName: String?
     @Binding var modelEntities: [ModelEntity]
 
@@ -164,7 +116,7 @@ struct ARContainerView: UIViewRepresentable {
     }
 }
 
-struct BottomSheet: View {
+struct BottomSheetRestaurant: View {
     @Binding var selectedModelName: String?
     @State private var showBiddingView: Bool = false
     @State private var showToast: Bool = false
@@ -172,8 +124,8 @@ struct BottomSheet: View {
     var body: some View {
         VStack {
             HStack {
-                Text("Your Purchases")
-                    .font(.system(size: 22)).bold()
+                Text("Surprise Box")
+                    .font(.system(size: 22, design: .rounded)).bold()
                     .foregroundColor(.white)
                     .padding(.leading, 24)
                     .padding(.top, 12)
@@ -211,14 +163,6 @@ struct BottomSheet: View {
             AlertToast(type: .regular, title: "Place object")
         }
     }
-}
-
-struct BlurView: UIViewRepresentable {
-    func makeUIView(context: Context) -> UIVisualEffectView {
-        return UIVisualEffectView(effect: UIBlurEffect(style: .dark))
-    }
-
-    func updateUIView(_ uiView: UIVisualEffectView, context: Context) {}
 }
 
 #Preview {

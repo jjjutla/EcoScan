@@ -10,7 +10,7 @@ import MapKit
 
 struct BrowseView: View {
     
-    @State var mapRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 37.785834, longitude: -122.406417), span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))
+    @State var mapRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 37.785834, longitude: -122.406417), span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
     @State private var searchText: String = ""
     
     @StateObject var viewModel = ContentViewModel()
@@ -130,7 +130,7 @@ final class ContentViewModel: NSObject, ObservableObject, CLLocationManagerDeleg
             let latitude = location.coordinate.latitude
             let longitude = location.coordinate.longitude
             userCoordinates = String(format: "%.4fº N, %.4fº W", latitude, longitude)
-            mapRegion = MKCoordinateRegion(center: location.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))
+            mapRegion = MKCoordinateRegion(center: location.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
         }
     }
     

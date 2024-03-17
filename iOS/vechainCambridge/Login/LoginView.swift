@@ -6,6 +6,10 @@
 //
 
 import SwiftUI
+import GoogleSignIn
+import FirebaseAuth
+import Firebase
+
 
 struct LoginView: View {
     
@@ -88,7 +92,34 @@ struct LoginView: View {
                     .padding(.bottom, 40)
                     
                     Button {
+                        guard let clientID = FirebaseApp.app()?.options.clientID else { return }
 
+                        let config = GIDConfiguration(clientID: clientID)
+                        GIDSignIn.sharedInstance.configuration = config
+
+                        GIDSignIn.sharedInstance.signIn(withPresenting: getRootViewController()) { result, error in
+                          guard error == nil else {
+                              return
+                          }
+
+                          guard let user = result?.user,
+                            let idToken = user.idToken?.tokenString
+                          else {
+                              return
+                          }
+
+                          let credential = GoogleAuthProvider.credential(withIDToken: idToken, accessToken: user.accessToken.tokenString)
+
+                            Auth.auth().signIn(with: credential) { result, error in
+
+                                guard error == nil else {
+                                    return
+                                }
+                                
+                                print("Signed in")
+                                UserDefaults.standard.set(true, forKey: "signin")
+                            }
+                        }
                     } label: {
                         HStack(spacing: 12) {
                             Image("google")
@@ -113,13 +144,12 @@ struct LoginView: View {
                         UserDefaults.standard.set(true, forKey: "signin")
                     } label: {
                         HStack(spacing: 12) {
-                            Image("apple")
+                            Image("walletconnect")
                                 .resizable()
                                 .scaledToFit()
-                                .frame(height: 24)
-                                .offset(y: -2)
+                                .frame(height: 28)
                             
-                            Text("Sign in with Apple")
+                            Text("Sign in with WalletConnect")
                                 .font(.system(size: 18, weight: .semibold))
                                 .foregroundStyle(.white)
                         }

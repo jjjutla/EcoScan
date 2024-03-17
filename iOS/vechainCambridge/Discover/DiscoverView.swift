@@ -17,7 +17,7 @@ struct DiscoverView: View {
                 ScrollView(.vertical, showsIndicators: false) {
                     VStack {
                         HStack {
-                            Text("Hello World!")
+                            Text("Popular around you")
                                 .font(.system(size: 18, weight: .bold, design: .rounded))
                             Spacer()
                             
@@ -78,7 +78,7 @@ struct DiscoverView: View {
                         
                         ScrollView(.horizontal, showsIndicators: false) {
                             LazyHStack(spacing: 20) {
-                                ForEach(restaurants) { restaurant in
+                                ForEach(restaurantsHurry) { restaurant in
                                     NavigationLink {
                                         RestaurantOverview(restaurant: restaurant)
                                     } label: {
@@ -92,7 +92,7 @@ struct DiscoverView: View {
                         .safeAreaPadding(.horizontal, 16)
                         
                         ZStack {
-                            Image("coke")
+                            Image("graphic")
                                 .resizable()
                                 .scaledToFill()
                                 .frame(width: 360, height: 200)
@@ -100,19 +100,17 @@ struct DiscoverView: View {
                             
                             VStack {
                                 HStack {
-                                    Image("hare")
+                                    Image("vechain")
                                         .resizable()
                                         .scaledToFit()
                                         .frame(width: 34, height: 34)
-                                        .padding(2)
                                         .background(.white)
                                         .cornerRadius(50)
                                     
-                                    Image("hare")
+                                    Image("logo")
                                         .resizable()
-                                        .scaledToFit()
+                                        .scaledToFill()
                                         .frame(width: 34, height: 34)
-                                        .padding(2)
                                         .background(.white)
                                         .cornerRadius(50)
                                         .offset(x: -24)

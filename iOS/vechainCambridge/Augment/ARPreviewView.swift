@@ -20,10 +20,12 @@ struct ARPreviewView: View {
                 .cornerRadius(10)
             
             VStack(alignment: .leading, spacing: 4) {
-                Text(arModel.name)
-                    .font(.system(size: 18, weight: .semibold, design: .rounded))
+                HStack {
+                    Text(arModel.place + " - " + arModel.name)
+                        .font(.system(size: 18, weight: .semibold, design: .rounded))
+                }
                 
-                Text("16.3.2024")
+                Text("17.3.2024")
                     .font(.system(size: 15, design: .rounded))
                     .foregroundStyle(.gray)
             }
@@ -37,7 +39,7 @@ struct ARPreviewView: View {
                     UIApplication.shared.open(url)
                 }
             } label: {
-                Image(systemName: "link")
+                Image(systemName: "arkit")
                     .resizable()
                     .scaledToFill()
                     .frame(width: 20, height: 20)
@@ -51,6 +53,6 @@ struct ARPreviewView: View {
 }
 
 #Preview {
-    ARPreviewView(arModel: ARItem(name: "Rubik's cube", imageURL: "coke", model: "model.usdz", modelURL: URL(string: "http://176.58.109.155/model/usdz/018e47fb-b310-774c-84ab-176f1490565f")!))
+    ARPreviewView(arModel: ARItem(place: "Costa", name: "Rubik's cube", imageURL: "coke", model: "model.usdz", modelURL: URL(string: "http://176.58.109.155/model/usdz/018e47fb-b310-774c-84ab-176f1490565f")!))
         .preferredColorScheme(.dark)
 }

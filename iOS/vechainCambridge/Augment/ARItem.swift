@@ -9,6 +9,7 @@ import Foundation
 
 struct ARItem: Identifiable, Decodable {
     var id = UUID()
+    var place: String
     var name: String
     var imageURL: String
     var model: String
@@ -18,9 +19,23 @@ struct ARItem: Identifiable, Decodable {
 
 var arItems: [ARItem] = [
     ARItem(
-        name: "Coke Can",
-        imageURL: "coke",
-        model: "coke.usdz",
+        place: "Costa",
+        name: "Sandwich Meal",
+        imageURL: "sandwich",
+        model: "sandwich.usdz",
         modelURL: URL(string: "http://176.58.109.155/model/usdz/018e47fb-b310-774c-84ab-176f1490565f")!
+    ),
+    ARItem(
+        place: "Tesco's", name: "Coke Can", imageURL: "coke", model: "coke.usdz"
     )
+]
+
+var arItemsHare: [ARItem] = [
+    ARItem(
+        place: "Costa",
+        name: "Sandwich Meal",
+        imageURL: "sandwich",
+        model: "sandwich.usdz",
+        modelURL: URL(string: "http://176.58.109.155/model/usdz/018e47fb-b310-774c-84ab-176f1490565f")!
+    ),
 ]
