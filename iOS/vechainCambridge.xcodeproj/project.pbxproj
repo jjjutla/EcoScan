@@ -16,6 +16,7 @@
 		DA0255B82BA6F215003C705E /* sandwich.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DA0255B72BA6F215003C705E /* sandwich.usdz */; };
 		DA0255BA2BA70803003C705E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA0255B92BA70803003C705E /* GoogleService-Info.plist */; };
 		DA0255BC2BA70BBD003C705E /* RestaurantARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0255BB2BA70BBD003C705E /* RestaurantARView.swift */; };
+		DA0255BE2BA70EFC003C705E /* APIClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0255BD2BA70EFC003C705E /* APIClass.swift */; };
 		DA0FE2EE2BA5DE7700166C85 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE2ED2BA5DE7700166C85 /* TabBarView.swift */; };
 		DA0FE2F42BA5DEE800166C85 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE2F32BA5DEE800166C85 /* ProfileView.swift */; };
 		DA0FE2F62BA5DEF200166C85 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE2F52BA5DEF200166C85 /* DiscoverView.swift */; };
@@ -96,6 +97,7 @@
 		DA0255B72BA6F215003C705E /* sandwich.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = sandwich.usdz; path = ../../../../Downloads/sandwich.usdz; sourceTree = "<group>"; };
 		DA0255B92BA70803003C705E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA0255BB2BA70BBD003C705E /* RestaurantARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantARView.swift; sourceTree = "<group>"; };
+		DA0255BD2BA70EFC003C705E /* APIClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClass.swift; sourceTree = "<group>"; };
 		DA0FE2ED2BA5DE7700166C85 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		DA0FE2F32BA5DEE800166C85 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		DA0FE2F52BA5DEF200166C85 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				DA0255AD2BA6E86D003C705E /* DeployTokenView.swift */,
 				DA0255B52BA6E8E3003C705E /* TakePhotoView.swift */,
 				DA0255BB2BA70BBD003C705E /* RestaurantARView.swift */,
+				DA0255BD2BA70EFC003C705E /* APIClass.swift */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -490,6 +493,7 @@
 				DA0FE3132BA6549600166C85 /* RestaurantOverview.swift in Sources */,
 				DA7F3AA32BA5D58A005F45F9 /* LoginView.swift in Sources */,
 				DA0255B32BA6E884003C705E /* CameraPreview.swift in Sources */,
+				DA0255BE2BA70EFC003C705E /* APIClass.swift in Sources */,
 				DA7F3A3B2BA5B7C1005F45F9 /* ContentView.swift in Sources */,
 				DA0FE3112BA63E8E00166C85 /* RestaurantView.swift in Sources */,
 				DA0FE2FC2BA5E18200166C85 /* +Ext.swift in Sources */,
