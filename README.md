@@ -5,17 +5,22 @@ DishDeal is a reduce-food-waste to earn iOS app that uses machine learning to to
 ## Tech Stack
 All code is commented 🚀
 
+- `@walletconnect/web3modal-swift`: to connect to existing veworld wallet.
+- `@vechain/connex` to build the raw data for contract interaction and allow a logical fork at the latest step between Web3Auth and connex-signing-service.
+-  `thor-devkit` to handle transaction signing.
+- `@vechain/ethers` for custom wallet management with a private key.
+- `@walletconnect/web3modal-swift` and `@web3auth/modal` for the Web3Auth implementation.
+- `@google/GoogleSignIn-iOS`: authenticating google credentials.
+- Role-Based Access Control contract
+- Flask Server: to distribute the NeRF model across AWS instances and parse the image and 3D between the phone to the server.
+- Nvidia NeRF Instant NGP: To generate a 3D model from an image [Paper](https://docs.nerf.studio/nerfology/methods/instant_ngp.html) 
+- AWS EC2: Distribute NeRF model across GPU's
+
 ## Worflow
 #### Sign-Up & Login:
 -  Once the user opens the app they are faced with two options:
     1. Login: Connect wallet
-          - `@walletconnect/web3modal-swift`: to connect to their existing veworld wallet.
     2. Sign Up: Walletless onboarding using Google login and web3auth as a non-custodial way of storing private keys:
-          - `@vechain/connex` to build the raw data for contract interaction and allow a logical fork at the latest step between Web3Auth and connex-signing-service.
-          - `thor-devkit` to handle transaction signing.
-          - `@vechain/ethers` for custom wallet management with a private key.
-          - `@walletconnect/web3modal-swift` and `@web3auth/modal` for the Web3Auth implementation.
-          - `@google/GoogleSignIn-iOS`: authenticating google credentials.
  - A Role-Based Access Control contract is used to manage if a user is a consumer or a restaurant and their access within the app.
 
 
