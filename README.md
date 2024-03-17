@@ -1,4 +1,5 @@
-# CambridgeHack
+# DishDeal
+DishDeal is a reduce-food-waste to earn iOS app that uses machine learning to tokenise food into 3D NFTS, connecting consumers with restaurants that have excess food.
 
 
 ## Tech Stack
