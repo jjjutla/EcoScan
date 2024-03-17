@@ -12,7 +12,7 @@ All code is commented 🚀
 - `@walletconnect/web3modal-swift` and `@web3auth/modal` for the Web3Auth implementation.
 - `@google/GoogleSignIn-iOS`: authenticating google credentials.
 - **Role-Based Access Control Contract**
-- **Flask Server:** to distribute the NeRF model across AWS instances and parse the image and 3D between the phone to the server.
+- **Flask Server:** parse the image and 3D between the phone to the server and update status of the AWS NeRF model.
 - **Nvidia NeRF Instant NGP:** To generate a 3D model from an image in ~45 seconds [Paper](https://docs.nerf.studio/nerfology/methods/instant_ngp.html) 
 - **AWS EC2**: Distribute NeRF model across GPU's
 - **Web3Storage API**: for IPFS storage of the 3D model
