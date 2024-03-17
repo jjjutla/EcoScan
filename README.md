@@ -11,10 +11,10 @@ All code is commented 🚀
 - `@vechain/ethers` for custom wallet management with a private key.
 - `@walletconnect/web3modal-swift` and `@web3auth/modal` for the Web3Auth implementation.
 - `@google/GoogleSignIn-iOS`: authenticating google credentials.
-- Role-Based Access Control contract
-- Flask Server: to distribute the NeRF model across AWS instances and parse the image and 3D between the phone to the server.
-- Nvidia NeRF Instant NGP: To generate a 3D model from an image [Paper](https://docs.nerf.studio/nerfology/methods/instant_ngp.html) 
-- AWS EC2: Distribute NeRF model across GPU's
+- **Role-Based Access Control Contract**
+- **Flask Server:** to distribute the NeRF model across AWS instances and parse the image and 3D between the phone to the server.
+- **Nvidia NeRF Instant NGP:** To generate a 3D model from an image [Paper](https://docs.nerf.studio/nerfology/methods/instant_ngp.html) 
+- **AWS EC2**: Distribute NeRF model across GPU's
 
 ## Worflow
 #### Sign-Up & Login:
