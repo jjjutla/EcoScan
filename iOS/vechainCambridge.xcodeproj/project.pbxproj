@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA0255AB2BA671CF003C705E /* ReserveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0255AA2BA671CF003C705E /* ReserveView.swift */; };
 		DA0FE2EE2BA5DE7700166C85 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE2ED2BA5DE7700166C85 /* TabBarView.swift */; };
 		DA0FE2F42BA5DEE800166C85 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE2F32BA5DEE800166C85 /* ProfileView.swift */; };
 		DA0FE2F62BA5DEF200166C85 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE2F52BA5DEF200166C85 /* DiscoverView.swift */; };
@@ -79,6 +80,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA0255AA2BA671CF003C705E /* ReserveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveView.swift; sourceTree = "<group>"; };
 		DA0FE2ED2BA5DE7700166C85 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		DA0FE2F32BA5DEE800166C85 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		DA0FE2F52BA5DEF200166C85 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				DA0FE2F52BA5DEF200166C85 /* DiscoverView.swift */,
 				DA0FE3122BA6549600166C85 /* RestaurantOverview.swift */,
 				DA0FE3102BA63E8E00166C85 /* RestaurantView.swift */,
+				DA0255AA2BA671CF003C705E /* ReserveView.swift */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				DA0FE3112BA63E8E00166C85 /* RestaurantView.swift in Sources */,
 				DA0FE2FC2BA5E18200166C85 /* +Ext.swift in Sources */,
 				DA0FE2F82BA5DF1100166C85 /* BrowseView.swift in Sources */,
+				DA0255AB2BA671CF003C705E /* ReserveView.swift in Sources */,
 				DA0FE2FE2BA5F61D00166C85 /* ARItem.swift in Sources */,
 				DA0FE2F42BA5DEE800166C85 /* ProfileView.swift in Sources */,
 				DA0FE3022BA5FB2400166C85 /* ARExperienceView.swift in Sources */,
@@ -634,6 +638,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = vechainCambridge/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is needed to use AR";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is necessary to be stored in the metadata";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -665,6 +670,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = vechainCambridge/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is needed to use AR";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is necessary to be stored in the metadata";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

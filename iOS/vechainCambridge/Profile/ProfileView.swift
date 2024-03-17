@@ -29,6 +29,32 @@ struct ProfileView: View {
                     }
                 }
                 
+                Section(header: Text("Rewards")) {
+                    VStack(spacing: 12) {
+                        Text("18 B3TR Tokens")
+                            .font(.system(size: 28, weight: .semibold, design: .rounded))
+                            .hLeading()
+                        
+                        HStack(spacing: 4) {
+                            Text("Stored safely on your ")
+                                .font(.system(size: 16, weight: .regular, design: .rounded))
+                            
+                            Image("veworld")
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: 24, height: 24)
+                                .cornerRadius(4)
+                            
+                            Text("VeWorld")
+                                .font(.system(size: 16, weight: .bold, design: .rounded))
+
+                        }
+                        .hLeading()
+
+                    }
+                    
+                }
+                
                 Section(header: Text("General")) {
                     NavigationLink {
                         

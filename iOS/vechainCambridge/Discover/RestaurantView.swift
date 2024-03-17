@@ -38,7 +38,7 @@ struct RestaurantView: View {
                             .resizable()
                             .scaledToFill()
                             .frame(width: 18, height: 18)
-                            .foregroundColor(isLiked ? .red : .white)
+                            .foregroundColor(.red)
                             .padding(8)
                             .background(.white.opacity(0.1))
                             .cornerRadius(50)
@@ -58,6 +58,7 @@ struct RestaurantView: View {
                     
                     Text(restaurant.name)
                         .font(.system(size: 18, weight: .bold, design: .rounded))
+                        .foregroundColor(.white)
                     
                     Spacer()
                 }
@@ -67,10 +68,12 @@ struct RestaurantView: View {
                     VStack(alignment: .leading, spacing: 4) {
                         Text(restaurant.itemName)
                             .font(.system(size: 16, weight: .semibold, design: .rounded))
+                            .foregroundColor(.white)
                             .hLeading()
                         
                         Text("Collect today " + restaurant.timeRange)
                             .font(.system(size: 12, weight: .regular, design: .rounded))
+                            .foregroundColor(.white)
                             .hLeading()
                         
                         HStack {
@@ -78,20 +81,25 @@ struct RestaurantView: View {
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 12, height: 12)
+                                .foregroundColor(.white)
                             
                             Text(restaurant.rating)
                                 .font(.system(size: 12, weight: .regular, design: .rounded))
+                                .foregroundColor(.white)
                             
                             RoundedRectangle(cornerRadius: 50)
                                 .frame(width: 1, height: 16)
+                                .foregroundColor(.white)
                             
                             Text(restaurant.distance)
                                 .font(.system(size: 12, weight: .regular, design: .rounded))
+                                .foregroundColor(.white)
                             
                             Spacer()
                             
                             Text(restaurant.price)
                                 .font(.system(size: 22, weight: .bold, design: .rounded))
+                                .foregroundColor(.white)
                         }
                     }
                 }

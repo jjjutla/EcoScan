@@ -14,13 +14,6 @@ struct DiscoverView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                LinearGradient(
-                    gradient: Gradient(colors: [.green.opacity(0.3), Color.clear]),
-                    startPoint: .topLeading,
-                    endPoint: .bottomTrailing
-                )
-                .ignoresSafeArea()
-                
                 ScrollView(.vertical, showsIndicators: false) {
                     VStack {
                         HStack {

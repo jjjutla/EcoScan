@@ -23,7 +23,7 @@ struct LoginView: View {
                 .ignoresSafeArea()
                 
                 VStack(spacing: 4) {
-                    Text("vechain Cambridge")
+                    Text("DishDeal")
                         .font(.system(size: 32, weight: .bold, design: .rounded))
                         .foregroundStyle(.white)
                         .padding(.top, 80)
