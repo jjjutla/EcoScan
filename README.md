@@ -22,6 +22,7 @@ All code is commented 🚀
 - **Marketplace Contract**: To manage transactions of tokens between users.
 - **Apple Pay**: For fiat payment payment provider.
 - **SwiftUI**: iOS Frontend & AR Kit.
+- **ERC-20**: is used to reward the user upon transaction and feedback.
 
 ## Worflow
 #### Sign-Up & Login:
