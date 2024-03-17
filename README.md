@@ -2,7 +2,7 @@
 DishDeal is a reduce-food-waste to earn iOS app that uses machine learning to tokenise food into 3D NFTS, connecting consumers with restaurants that have excess food. Upon purchase and feedback, users are rewarded with B3TR tokens for each transaction, redeemable for future discounts or events at the participating restaurants.
 
 <p align="center">
-  <img src="https://github.com/nkoorty/CambridgeHack/assets/22000925/12180145-aa83-4842-9165-a64008aa4778" alt="DishDeal" width="30%" height="auto"/>
+  <img src="https://github.com/nkoorty/CambridgeHack/assets/22000925/2d3ffe1d-75d7-40a5-b93c-e42677dcc3d1" alt="DishDeal" width="30%" height="auto"/>
 </p>
 
 ## Tech Stack
