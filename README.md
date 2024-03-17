@@ -38,13 +38,13 @@ All code is commented 🚀
 ## Worflow
 ![ArchDiagram](https://github.com/nkoorty/CambridgeHack/assets/22000925/0bf9040b-c054-470a-81ed-63673b8579e7)
 
-#### Sign-Up & Login:
+#### Sign-Up & Login
 -  Once the user opens the app they have two options:
     1. Login: Connect VeWorld using WalletConnect
     2. Sign Up: Walletless onboarding using Google OAuth and Web3Auth as a non-custodial way of storing private keys:
  - A Role-Based Access Control contract is used to manage if a user is a consumer or a restaurant and their access within the app.
 
-#### Login as a Restaurant:
+#### Login as a Restaurant
 - The restaurant captures an image of the real-world food item they want to tokenise.
 - A photo is sent from the app to our Python server (you can try it out) (http://176.58.109.155/) and uploads it to an AWS EC2 instance.
 - The AWS EC2 instance is running NVIDIA's NeRF Instant NGP that is used to generate a 3D model (`.usdz`) from an image.
@@ -53,7 +53,7 @@ All code is commented 🚀
 - Face ID is used to generate a signer key and `@vechain/vechain-sdk-core` is used to sign the transaction and deploy an NFT digital twin contract that contains the hash of the model along with the metadata.
 - The tokenised food item is then displayed in the marketplace.
 
-#### Login as a Consumer:
+#### Login as a Consumer
 - The user can view the marketplace of the restaurants and food items with their digital twin NFT's.
 - The user can view the food items in AR on their phone.
 - The user can decide to buy an item and the NFT marketplace contract manages tranasactions of tokens between users.
@@ -63,3 +63,6 @@ All code is commented 🚀
 
 
 ## Tokenomics
+- Users earn tokens for each purchase made from the app, with additional rewards for leaving reviews and feedback.
+-  Tokens can be redeemed for discounts, special offers, or exclusive events at participating restaurants, driving repeat usage and engagement.
+-  The in-app ERC-20 token will act as a 1:1 will the B3TR token.
