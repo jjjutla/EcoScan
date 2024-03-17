@@ -5,7 +5,7 @@ DishDeal is a reduce-food-waste to earn iOS app that uses machine learning to to
 ## Tech Stack
 All code is commented 🚀
 
-- `@walletconnect/web3modal-swift`: to connect to existing veworld wallet.
+- `@walletconnect/web3modal-swift` to connect to existing veworld wallet.
 - `@vechain/connex` to build the raw data for contract interaction and allow a logical fork at the latest step between Web3Auth and connex-signing-service.
 -  `thor-devkit` to handle transaction signing.
 - `@vechain/ethers` for custom wallet management with a private key.
@@ -13,8 +13,15 @@ All code is commented 🚀
 - `@google/GoogleSignIn-iOS`: authenticating google credentials.
 - **Role-Based Access Control Contract**
 - **Flask Server:** to distribute the NeRF model across AWS instances and parse the image and 3D between the phone to the server.
-- **Nvidia NeRF Instant NGP:** To generate a 3D model from an image [Paper](https://docs.nerf.studio/nerfology/methods/instant_ngp.html) 
+- **Nvidia NeRF Instant NGP:** To generate a 3D model from an image in ~45 seconds [Paper](https://docs.nerf.studio/nerfology/methods/instant_ngp.html) 
 - **AWS EC2**: Distribute NeRF model across GPU's
+- **Web3Storage API**: for IPFS storage of the 3D model
+- **TS backend**: Conecting payments and issues commands to create or delete NFTs.
+- `@vechain/vechain-sdk-core` to sign transactions and deploy the contract.
+- **NFT digital twin contract**: containing metadata and hashes of the model.
+- **Marketplace Contract**: To manage transactions of tokens between users.
+- **Apple Pay**: For fiat payment payment provider.
+- **SwiftUI**: iOS Frontend & AR Kit.
 
 ## Worflow
 #### Sign-Up & Login:
