@@ -39,7 +39,7 @@ All code is commented 🚀
 
 #### Login as a Restaurant:
 - The restaurant captures an image of the real-world food item they want to tokenise.
-- A photo is sent from the app to our Python server (http://176.58.109.155/),(you can try it out) and uploads it to an AWS EC2 instance.
+- A photo is sent from the app to our Python server (you can try it out) (http://176.58.109.155/) and uploads it to an AWS EC2 instance.
 - The AWS EC2 instance is running NVIDIA's NeRF Instant NGP that is used to generate a 3D model (`.usdz`) from an image.
 - The 3D model is hashed and stored on IPFS using Web3Storage.
 - The restaurant inputs details about the item (Name, Price, Use-by-Date).
