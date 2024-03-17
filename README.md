@@ -15,15 +15,15 @@ All code is commented 🚀
 - `@walletconnect/web3modal-swift` and `@web3auth/modal` for the Web3Auth implementation.
 - `@google/GoogleSignIn-iOS`: authenticating google credentials.
 - **Role-Based Access Control Contract**
-- **Flask Server:** parse the image and 3D between the phone to the server and update status of the AWS NeRF model.
+- **Flask Server:**  to parse the image and 3D model between the phone to the server and update status of the AWS NeRF model.
 - **Nvidia NeRF Instant NGP:** To generate a 3D model from an image in ~45 seconds [Paper](https://docs.nerf.studio/nerfology/methods/instant_ngp.html) 
-- **AWS EC2**: Distribute NeRF model across GPUs
-- **Web3Storage API**: for IPFS storage of the 3D model
-- **TS backend**: Conecting payments and issues commands to create or delete NFTs.
+- **AWS EC2**: distribute NeRF model across GPUs.
+- **Web3Storage API**: for IPFS storage of the 3D model.
+- **TS backend**:conecting payments and issues commands to create or delete NFTs.
 - `@vechain/vechain-sdk-core` to sign transactions and deploy the contract.
 - **NFT digital twin contract**: containing metadata and hashes of the model.
-- **Marketplace Contract**: To manage transactions of tokens between users.
-- **Apple Pay**: For fiat payment payment provider.
+- **Marketplace Contract**: to manage transactions of tokens between users.
+- **Apple Pay**: for fiat payment payment provider.
 - **SwiftUI**: iOS Frontend & AR Kit.
 - **ERC-20**: is used to reward the user upon transaction and feedback.
 
