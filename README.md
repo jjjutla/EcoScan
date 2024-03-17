@@ -1,5 +1,5 @@
 # DishDeal
-DishDeal is a reduce-food-waste to earn iOS app that uses machine learning to tokenise food into 3D NFTS, connecting consumers with restaurants that have excess food.
+DishDeal is a reduce-food-waste to earn iOS app that uses machine learning to tokenise food into 3D NFTS, connecting consumers with restaurants that have excess food. Upon purchase and feedback, users are rewarded with tokens for each transaction, redeemable for future discounts or events at the participating restaurants.
 
 
 ## Tech Stack
