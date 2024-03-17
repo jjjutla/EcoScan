@@ -14,6 +14,18 @@ DishDeal is a reduce-food-waste to earn iOS app that uses augmented reality and 
 - Artemiy Malyshau: MSc Applied CS and Engineering, Imperial College London [Connect](https://www.linkedin.com/in/artemiy-malyshau/)
 - Jeevan Jutla: Binance Security Engineer [Connect](https://www.linkedin.com/in/jeevan-jutla/)
 
+## Images
+<img src=https://github.com/nkoorty/CambridgeHack/assets/80065244/ea833294-4e58-40fd-aba0-e2c4ded65f88 width=19%> 
+<img src=https://github.com/nkoorty/CambridgeHack/assets/80065244/1ea06490-61bc-4542-95e8-72b9ef0de5c4 width=19%> 
+<img src=https://github.com/nkoorty/CambridgeHack/assets/80065244/fad67247-ceb2-4e21-9b64-168a05ffb101 width=19%> 
+<img src=https://github.com/nkoorty/CambridgeHack/assets/80065244/552eea04-2f86-44fd-bfb5-a46a4198ae86 width=19%> 
+<img src=https://github.com/nkoorty/CambridgeHack/assets/80065244/857c4da6-ffb4-45d9-b691-730ad2e07c12 width=19%> 
+<img src=https://github.com/nkoorty/CambridgeHack/assets/80065244/c034c109-e7e6-41d5-a7e3-157b6ef3db3d width=19%> 
+<img src=https://github.com/nkoorty/CambridgeHack/assets/80065244/61276444-bc3c-4473-991b-59bee33eca01 width=19%> 
+<img src=https://github.com/nkoorty/CambridgeHack/assets/80065244/d59551a6-399f-490e-9407-e949f7923709 width=19%> 
+<img src=https://github.com/nkoorty/CambridgeHack/assets/80065244/8f657e23-9bb8-45f7-9cb1-048060e12f0d width=19%> 
+
+
 ## Tech Stack
 All code is commented 🚀
 
@@ -36,7 +48,7 @@ All code is commented 🚀
 - **SwiftUI**: iOS Frontend & AR Kit.
 - **ERC-20**: is used to reward the user upon transaction and feedback.
 
-## Worflow
+## Workflow
 ![ArchDiagram](https://github.com/nkoorty/CambridgeHack/assets/22000925/0bf9040b-c054-470a-81ed-63673b8579e7)
 
 #### Sign-Up & Login
