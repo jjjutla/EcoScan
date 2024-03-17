@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct vechainCambridgeApp: App {
+    
+    @AppStorage("signin") var isSignedIn = false
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isSignedIn {
+                TabBarView()
+                    .preferredColorScheme(.dark)
+            } else {
+                LoginView()
+                    .preferredColorScheme(.dark)
+            }
         }
     }
 }

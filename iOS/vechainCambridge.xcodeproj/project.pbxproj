@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA0FE2EE2BA5DE7700166C85 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE2ED2BA5DE7700166C85 /* TabBarView.swift */; };
+		DA0FE2F42BA5DEE800166C85 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE2F32BA5DEE800166C85 /* ProfileView.swift */; };
+		DA0FE2F62BA5DEF200166C85 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE2F52BA5DEF200166C85 /* DiscoverView.swift */; };
+		DA0FE2F82BA5DF1100166C85 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE2F72BA5DF1100166C85 /* BrowseView.swift */; };
+		DA0FE2FA2BA5DF1600166C85 /* AugmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE2F92BA5DF1600166C85 /* AugmentView.swift */; };
+		DA0FE2FC2BA5E18200166C85 /* +Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE2FB2BA5E18200166C85 /* +Ext.swift */; };
+		DA0FE2FE2BA5F61D00166C85 /* ARItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE2FD2BA5F61D00166C85 /* ARItem.swift */; };
+		DA0FE3002BA5F9AC00166C85 /* ARPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE2FF2BA5F9AC00166C85 /* ARPreviewView.swift */; };
+		DA0FE3022BA5FB2400166C85 /* ARExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE3012BA5FB2400166C85 /* ARExperienceView.swift */; };
+		DA0FE3052BA5FB3A00166C85 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = DA0FE3042BA5FB3A00166C85 /* FocusEntity */; };
+		DA0FE3082BA60F7200166C85 /* sandwich.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DA0FE3072BA60F7200166C85 /* sandwich.usdz */; };
+		DA0FE30F2BA6362500166C85 /* coke.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DA0FE30E2BA6362500166C85 /* coke.usdz */; };
+		DA0FE3112BA63E8E00166C85 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE3102BA63E8E00166C85 /* RestaurantView.swift */; };
+		DA0FE3132BA6549600166C85 /* RestaurantOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FE3122BA6549600166C85 /* RestaurantOverview.swift */; };
 		DA7F3A392BA5B7C1005F45F9 /* vechainCambridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F3A382BA5B7C1005F45F9 /* vechainCambridgeApp.swift */; };
 		DA7F3A3B2BA5B7C1005F45F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F3A3A2BA5B7C1005F45F9 /* ContentView.swift */; };
 		DA7F3A3D2BA5B7C2005F45F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7F3A3C2BA5B7C2005F45F9 /* Assets.xcassets */; };
@@ -65,6 +79,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA0FE2ED2BA5DE7700166C85 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		DA0FE2F32BA5DEE800166C85 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DA0FE2F52BA5DEF200166C85 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		DA0FE2F72BA5DF1100166C85 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		DA0FE2F92BA5DF1600166C85 /* AugmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugmentView.swift; sourceTree = "<group>"; };
+		DA0FE2FB2BA5E18200166C85 /* +Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+Ext.swift"; sourceTree = "<group>"; };
+		DA0FE2FD2BA5F61D00166C85 /* ARItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARItem.swift; sourceTree = "<group>"; };
+		DA0FE2FF2BA5F9AC00166C85 /* ARPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPreviewView.swift; sourceTree = "<group>"; };
+		DA0FE3012BA5FB2400166C85 /* ARExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARExperienceView.swift; sourceTree = "<group>"; };
+		DA0FE3072BA60F7200166C85 /* sandwich.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sandwich.usdz; sourceTree = "<group>"; };
+		DA0FE3092BA6220500166C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DA0FE30E2BA6362500166C85 /* coke.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = coke.usdz; sourceTree = "<group>"; };
+		DA0FE3102BA63E8E00166C85 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		DA0FE3122BA6549600166C85 /* RestaurantOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantOverview.swift; sourceTree = "<group>"; };
 		DA7F3A352BA5B7C1005F45F9 /* vechainCambridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vechainCambridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7F3A382BA5B7C1005F45F9 /* vechainCambridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vechainCambridgeApp.swift; sourceTree = "<group>"; };
 		DA7F3A3A2BA5B7C1005F45F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +117,7 @@
 				DA7F3AA02BA5D398005F45F9 /* AlertToast in Frameworks */,
 				DA7F3A682BA5D349005F45F9 /* FirebaseAnalyticsSwift in Frameworks */,
 				DA7F3A642BA5D349005F45F9 /* FirebaseAnalytics in Frameworks */,
+				DA0FE3052BA5FB3A00166C85 /* FocusEntity in Frameworks */,
 				DA7F3A662BA5D349005F45F9 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 				DA7F3A8C2BA5D349005F45F9 /* FirebaseMLModelDownloader in Frameworks */,
 				DA7F3A9D2BA5D35E005F45F9 /* GoogleSignInSwift in Frameworks */,
@@ -133,6 +162,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA0FE2EF2BA5DEC300166C85 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				DA0FE2F52BA5DEF200166C85 /* DiscoverView.swift */,
+				DA0FE3122BA6549600166C85 /* RestaurantOverview.swift */,
+				DA0FE3102BA63E8E00166C85 /* RestaurantView.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		DA0FE2F02BA5DECD00166C85 /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				DA0FE2F72BA5DF1100166C85 /* BrowseView.swift */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
+		DA0FE2F12BA5DED400166C85 /* Augment */ = {
+			isa = PBXGroup;
+			children = (
+				DA0FE2F92BA5DF1600166C85 /* AugmentView.swift */,
+				DA0FE2FD2BA5F61D00166C85 /* ARItem.swift */,
+				DA0FE2FF2BA5F9AC00166C85 /* ARPreviewView.swift */,
+				DA0FE3012BA5FB2400166C85 /* ARExperienceView.swift */,
+			);
+			path = Augment;
+			sourceTree = "<group>";
+		};
+		DA0FE2F22BA5DED800166C85 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				DA0FE2F32BA5DEE800166C85 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		DA0FE3062BA60F6500166C85 /* ARModels */ = {
+			isa = PBXGroup;
+			children = (
+				DA0FE30E2BA6362500166C85 /* coke.usdz */,
+				DA0FE3072BA60F7200166C85 /* sandwich.usdz */,
+			);
+			path = ARModels;
+			sourceTree = "<group>";
+		};
 		DA7F3A2C2BA5B7C1005F45F9 = {
 			isa = PBXGroup;
 			children = (
@@ -156,11 +231,19 @@
 		DA7F3A372BA5B7C1005F45F9 /* vechainCambridge */ = {
 			isa = PBXGroup;
 			children = (
+				DA0FE3062BA60F6500166C85 /* ARModels */,
+				DA0FE2F12BA5DED400166C85 /* Augment */,
+				DA0FE2F02BA5DECD00166C85 /* Browse */,
+				DA0FE2EF2BA5DEC300166C85 /* Discover */,
 				DA7F3AA12BA5D575005F45F9 /* Login */,
+				DA0FE2F22BA5DED800166C85 /* Profile */,
 				DA7F3A382BA5B7C1005F45F9 /* vechainCambridgeApp.swift */,
 				DA7F3A3A2BA5B7C1005F45F9 /* ContentView.swift */,
 				DA7F3A3C2BA5B7C2005F45F9 /* Assets.xcassets */,
 				DA7F3A3E2BA5B7C2005F45F9 /* Preview Content */,
+				DA0FE2ED2BA5DE7700166C85 /* TabBarView.swift */,
+				DA0FE2FB2BA5E18200166C85 /* +Ext.swift */,
+				DA0FE3092BA6220500166C85 /* Info.plist */,
 			);
 			path = vechainCambridge;
 			sourceTree = "<group>";
@@ -245,6 +328,7 @@
 				DA7F3A9A2BA5D35E005F45F9 /* GoogleSignIn */,
 				DA7F3A9C2BA5D35E005F45F9 /* GoogleSignInSwift */,
 				DA7F3A9F2BA5D398005F45F9 /* AlertToast */,
+				DA0FE3042BA5FB3A00166C85 /* FocusEntity */,
 			);
 			productName = vechainCambridge;
 			productReference = DA7F3A352BA5B7C1005F45F9 /* vechainCambridge.app */;
@@ -322,6 +406,7 @@
 				DA7F3A622BA5D349005F45F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				DA7F3A992BA5D35E005F45F9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				DA7F3A9E2BA5D398005F45F9 /* XCRemoteSwiftPackageReference "AlertToast" */,
+				DA0FE3032BA5FB3A00166C85 /* XCRemoteSwiftPackageReference "FocusEntity" */,
 			);
 			productRefGroup = DA7F3A362BA5B7C1005F45F9 /* Products */;
 			projectDirPath = "";
@@ -340,7 +425,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA7F3A402BA5B7C2005F45F9 /* Preview Assets.xcassets in Resources */,
+				DA0FE3082BA60F7200166C85 /* sandwich.usdz in Resources */,
 				DA7F3A3D2BA5B7C2005F45F9 /* Assets.xcassets in Resources */,
+				DA0FE30F2BA6362500166C85 /* coke.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,9 +452,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA0FE2FA2BA5DF1600166C85 /* AugmentView.swift in Sources */,
+				DA0FE3132BA6549600166C85 /* RestaurantOverview.swift in Sources */,
 				DA7F3AA32BA5D58A005F45F9 /* LoginView.swift in Sources */,
 				DA7F3A3B2BA5B7C1005F45F9 /* ContentView.swift in Sources */,
+				DA0FE3112BA63E8E00166C85 /* RestaurantView.swift in Sources */,
+				DA0FE2FC2BA5E18200166C85 /* +Ext.swift in Sources */,
+				DA0FE2F82BA5DF1100166C85 /* BrowseView.swift in Sources */,
+				DA0FE2FE2BA5F61D00166C85 /* ARItem.swift in Sources */,
+				DA0FE2F42BA5DEE800166C85 /* ProfileView.swift in Sources */,
+				DA0FE3022BA5FB2400166C85 /* ARExperienceView.swift in Sources */,
+				DA0FE2EE2BA5DE7700166C85 /* TabBarView.swift in Sources */,
 				DA7F3A392BA5B7C1005F45F9 /* vechainCambridgeApp.swift in Sources */,
+				DA0FE3002BA5F9AC00166C85 /* ARPreviewView.swift in Sources */,
+				DA0FE2F62BA5DEF200166C85 /* DiscoverView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +632,8 @@
 				DEVELOPMENT_TEAM = 288ZUH88HD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = vechainCambridge/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is needed to use AR";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -563,6 +663,8 @@
 				DEVELOPMENT_TEAM = 288ZUH88HD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = vechainCambridge/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is needed to use AR";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -699,6 +801,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		DA0FE3032BA5FB3A00166C85 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
 		DA7F3A622BA5D349005F45F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -726,6 +836,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DA0FE3042BA5FB3A00166C85 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA0FE3032BA5FB3A00166C85 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
 		DA7F3A632BA5D349005F45F9 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DA7F3A622BA5D349005F45F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
