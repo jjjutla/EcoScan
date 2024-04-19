@@ -3,7 +3,7 @@
 EcoScan is an iOS dApp developed on vechain, designed to promote sustainable grocery shopping and consumption habits via a ‘reduce-to-earn’ model. The app incentivises users to purchase and consume sustainable products by scanning the packaging of the product, where OCR and a machine learning classifier will reward the user with B3TR tokens proportional to the median sustainability score of the purchased product obtained from an Open Source Software (OSS) API. 
 
 
-# Wireframes
+# Prototype Wireframes
 <div style="text-align: center;">
     <img src="https://github.com/jjjutla/EcoScan/assets/22000925/58495c83-2f5b-4997-967e-5ed75386ff2a" width="20%">
     <img src="https://github.com/jjjutla/EcoScan/assets/22000925/11d43a3b-9aaa-4977-8210-6a267fec71c5" width="20%">
