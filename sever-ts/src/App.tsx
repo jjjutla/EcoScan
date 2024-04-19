@@ -105,33 +105,7 @@ export function App(): React.ReactElement {
     subscribeAuthEvents(web3auth)
   }, [])
 
-  return (
-    <Row gutter={[24, 24]}>
 
-      <Col span={24}>
-        {privateKey === ''
-          ? <Button block size='large' type='primary' onClick={handleSignIn}>sign in</Button>
-          : <Button block size='large' danger onClick={handleSignOut}>sign out</Button>
-        }
-      </Col>
-
-      <Col span={24}>
-        <Button block loading={loading} size='large' type='primary' onClick={handleTransaction} disabled={privateKey === ''}>send a test transaction</Button>
-      </Col>
-
-      <Col span={24}>
-        <code>
-          Your Private Key: {privateKey}
-        </code>
-      </Col>
-
-      {txId !== '' && (
-        <Col span={24}>
-          <a href={`https://explore-testnet.vechain.org/transactions/${txId}`} target="_blank" rel="noopener noreferrer">{txId}</a>
-        </Col>
-      )}
-    </Row>
-  )
 }
 /**
  * generate a signed transaction and broadcast to the network

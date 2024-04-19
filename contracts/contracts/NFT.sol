@@ -64,9 +64,7 @@ contract NFT is
         require(_exists(tokenId), "Food item does not exist");
         return _foodItems[tokenId];
     }
-
-    function _authorizeUpgrade(address newImplementation) internal override onlyRole(UPGRADER_ROLE) {}
-
+    
     // Override required functions
     function _beforeTokenTransfer(address from, address to, uint256 tokenId) internal override(ERC721Upgradeable, ERC721EnumerableUpgradeable) {
         super._beforeTokenTransfer(from, to, tokenId);
