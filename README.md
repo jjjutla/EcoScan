@@ -27,7 +27,7 @@ EcoScan is an iOS dApp developed on vechain, designed to promote sustainable gro
 ### Milestone 3 - QA, Security Testing, and Deployment
 - **Frontend:** Write XCTests and UI tests for the iOS app to ensure that the app works as intended on various device screens and dimensions, ensure that connections to Google OAuth and Web3Auth are safe and cover deployment costs to the App Store.
 - **Backend:** Conduct detailed security audits of the smart contracts and ML models to ensure there are no vulnerabilities in the token disbursement and product matching process. Full stack testing with the front end team and establishing documentation and continuous integration and deployment (CI/CD) pipelines to ensure smooth updates and maintenance post-launch.
-Reserve $5,000 B3TR for tokens
+Reserve $5,000 B3TR for tokens.
 - **Time Requirement:** 45 days (1.5 FTE)
 - **Requested Budget: $15,000**
 
