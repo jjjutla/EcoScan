@@ -1,1 +1,1 @@
-# Ecoscan
+# EcoScan
